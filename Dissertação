@@ -1,0 +1,8 @@
+10 PRINT "Hora de agradecer!"
+20 PRINT "Você ajudou ou influenciou na escrita do trabalho (S/N)?"
+30 INPUT A$
+40 IF A$="N" THEN GOTO 70 ENDIF
+50 PRINT "Obrigado por ter ajudado ou influenciado na escrita do trabalho. Receba a minha eterna gratidão"
+60 GOTO 80
+70 PRINT "Obrigado mesmo assim."
+80 END 
